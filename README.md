@@ -53,7 +53,7 @@ wget -O - https://bin.entware.net/x64-k3.2/installer/generic.sh | /bin/sh
 /opt/bin/opkg install ca-certificates
 ```
 
-2. 配置ARIA2 服务
+2. Systemd 配置文件
 
 * 启动vi编辑器
 ```bash
