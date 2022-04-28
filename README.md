@@ -60,7 +60,7 @@ wget -O - https://bin.entware.net/x64-k3.2/installer/generic.sh | /bin/sh
 vi /etc/systemd/system/aria2.service
 ```
 
-* 按`I`进入编辑模式，键入以下内容（--conf-path=后面键入aria2配置文件路径，对应的aria2.conf文件内容也需要修改）
+* 按`I`进入编辑模式，键入以下内容（`--conf-path=`后面键入aria2配置文件路径，对应的aria2.conf文件内容也需要修改）
 ```bash
 [Unit]
 Description=Aria2 daemon, The ultra fast download utility.
