@@ -69,7 +69,7 @@ After=network.target
 [Service]
 Type=simple
 Restart=always
-ExecStart=/opt/bin/aria2c --conf-path=
+ExecStart=/opt/bin/aria2c --conf-path=/volume1/homes/.aria2/aria2.conf
 
 [Install]
 WantedBy=multi-user.target
