@@ -77,8 +77,9 @@ WantedBy=multi-user.target
 
 * 按`ESC`，键入`:wq`退出
 
-3.设置系统启动时运行服务
+3.立即运行并设置系统启动时运行
 ```bash
+systemctl start aria2
 systemctl enable aria2
 ```
 
