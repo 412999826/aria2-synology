@@ -47,7 +47,7 @@ wget -O - https://bin.entware.net/x64-k3.2/installer/generic.sh | /bin/sh
 
 1. 安装ARIA2
 ```bash
-/opt/bin/opkg install aria2c
+/opt/bin/opkg install aria2
 #安装ca-certificates，避免出现证书错误
 /opt/bin/opkg install ca-certificates
 ```
